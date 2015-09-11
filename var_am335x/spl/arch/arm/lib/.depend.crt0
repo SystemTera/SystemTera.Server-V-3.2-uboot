@@ -1,0 +1,15 @@
+/arm/server-v/usr/src/u-boot/var_am335x/spl/arch/arm/lib/crt0.o: crt0.S \
+ /arm/server-v/usr/src/u-boot/var_am335x/include/config.h \
+ /arm/server-v/usr/src/u-boot/include/config_cmd_defaults.h \
+ /arm/server-v/usr/src/u-boot/include/config_defaults.h \
+ /arm/server-v/usr/src/u-boot/include/configs/var_am335x.h \
+ /arm/server-v/usr/src/u-boot/var_am335x/include/asm/arch/cpu.h \
+ /arm/server-v/usr/src/u-boot/var_am335x/include2/asm/types.h \
+ /arm/server-v/usr/src/u-boot/var_am335x/include/asm/arch/hardware.h \
+ /arm/server-v/usr/src/u-boot/var_am335x/include/asm/arch/omap.h \
+ /arm/server-v/usr/src/u-boot/include/config_cmd_default.h \
+ /arm/server-v/usr/src/u-boot/var_am335x/include2/asm/config.h \
+ /arm/server-v/usr/src/u-boot/include/config_fallbacks.h \
+ /arm/server-v/usr/src/u-boot/include/config_uncmd_spl.h \
+ /arm/server-v/usr/src/u-boot/include/asm-offsets.h \
+ /arm/server-v/usr/src/u-boot/var_am335x/include/generated/generic-asm-offsets.h

@@ -1,0 +1,2 @@
+/arm/server-v/usr/src/u-boot/var_am335x/spl/arch/arm/lib/_divsi3.o: \
+ _divsi3.S

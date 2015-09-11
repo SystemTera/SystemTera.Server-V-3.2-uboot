@@ -1,0 +1,105 @@
+rpx_pcmcia.o: rpx_pcmcia.c /usr/src/u-boot/include/common.h \
+ /usr/src/u-boot/include/config.h \
+ /usr/src/u-boot/include/config_cmd_defaults.h \
+ /usr/src/u-boot/include/config_defaults.h \
+ /usr/src/u-boot/include/configs/var_am335x.h \
+ /usr/src/u-boot/include/asm/arch/cpu.h \
+ /usr/src/u-boot/include/asm/types.h \
+ /usr/src/u-boot/include/asm/arch/hardware.h \
+ /usr/src/u-boot/include/asm/arch/omap.h \
+ /usr/src/u-boot/include/config_cmd_default.h \
+ /usr/src/u-boot/include/asm/config.h \
+ /usr/src/u-boot/include/config_fallbacks.h \
+ /usr/src/u-boot/include/config_uncmd_spl.h \
+ /usr/src/u-boot/include/asm-offsets.h \
+ /usr/src/u-boot/include/generated/generic-asm-offsets.h \
+ /usr/src/u-boot/include/linux/bitops.h \
+ /usr/src/u-boot/include/asm/bitops.h \
+ /usr/src/u-boot/include/asm/proc/system.h \
+ /usr/src/u-boot/include/linux/config.h \
+ /usr/src/u-boot/include/linux/types.h \
+ /usr/src/u-boot/include/linux/posix_types.h \
+ /usr/src/u-boot/include/linux/stddef.h \
+ /usr/src/u-boot/include/asm/posix_types.h \
+ /usr/src/u-boot/include/linux/string.h \
+ /usr/src/u-boot/include/asm/string.h \
+ /usr/src/u-boot/include/linux/linux_string.h \
+ /usr/src/u-boot/include/linux/stringify.h \
+ /usr/src/u-boot/include/asm/ptrace.h \
+ /usr/src/u-boot/include/asm/proc/ptrace.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdarg.h \
+ /usr/src/u-boot/include/part.h /usr/src/u-boot/include/ide.h \
+ /usr/src/u-boot/include/flash.h /usr/src/u-boot/include/image.h \
+ /usr/src/u-boot/include/compiler.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stddef.h \
+ /usr/src/u-boot/include/asm/byteorder.h \
+ /usr/src/u-boot/include/linux/byteorder/little_endian.h \
+ /usr/src/u-boot/include/linux/compiler.h \
+ /usr/src/u-boot/include/linux/compiler-gcc.h \
+ /usr/src/u-boot/include/linux/compiler-gcc4.h \
+ /usr/src/u-boot/include/linux/byteorder/swab.h \
+ /usr/src/u-boot/include/linux/byteorder/generic.h \
+ /usr/src/u-boot/include/lmb.h /usr/src/u-boot/include/asm/u-boot.h \
+ /usr/src/u-boot/include/command.h /usr/src/u-boot/include/linker_lists.h \
+ /usr/src/u-boot/include/asm/global_data.h \
+ /usr/src/u-boot/include/asm-generic/global_data_flags.h \
+ /usr/src/u-boot/include/asm/mach-types.h \
+ /usr/src/u-boot/include/asm/setup.h \
+ /usr/src/u-boot/include/asm/u-boot-arm.h \
+ /usr/src/u-boot/include/vsprintf.h /usr/src/u-boot/include/u-boot/crc.h \
+ /usr/src/u-boot/include/net.h /usr/src/u-boot/include/asm/cache.h \
+ /usr/src/u-boot/include/asm/system.h /usr/src/u-boot/include/bootstage.h \
+ /usr/src/u-boot/include/pcmcia.h
+tqm8xx_pcmcia.o: tqm8xx_pcmcia.c /usr/src/u-boot/include/common.h \
+ /usr/src/u-boot/include/config.h \
+ /usr/src/u-boot/include/config_cmd_defaults.h \
+ /usr/src/u-boot/include/config_defaults.h \
+ /usr/src/u-boot/include/configs/var_am335x.h \
+ /usr/src/u-boot/include/asm/arch/cpu.h \
+ /usr/src/u-boot/include/asm/types.h \
+ /usr/src/u-boot/include/asm/arch/hardware.h \
+ /usr/src/u-boot/include/asm/arch/omap.h \
+ /usr/src/u-boot/include/config_cmd_default.h \
+ /usr/src/u-boot/include/asm/config.h \
+ /usr/src/u-boot/include/config_fallbacks.h \
+ /usr/src/u-boot/include/config_uncmd_spl.h \
+ /usr/src/u-boot/include/asm-offsets.h \
+ /usr/src/u-boot/include/generated/generic-asm-offsets.h \
+ /usr/src/u-boot/include/linux/bitops.h \
+ /usr/src/u-boot/include/asm/bitops.h \
+ /usr/src/u-boot/include/asm/proc/system.h \
+ /usr/src/u-boot/include/linux/config.h \
+ /usr/src/u-boot/include/linux/types.h \
+ /usr/src/u-boot/include/linux/posix_types.h \
+ /usr/src/u-boot/include/linux/stddef.h \
+ /usr/src/u-boot/include/asm/posix_types.h \
+ /usr/src/u-boot/include/linux/string.h \
+ /usr/src/u-boot/include/asm/string.h \
+ /usr/src/u-boot/include/linux/linux_string.h \
+ /usr/src/u-boot/include/linux/stringify.h \
+ /usr/src/u-boot/include/asm/ptrace.h \
+ /usr/src/u-boot/include/asm/proc/ptrace.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdarg.h \
+ /usr/src/u-boot/include/part.h /usr/src/u-boot/include/ide.h \
+ /usr/src/u-boot/include/flash.h /usr/src/u-boot/include/image.h \
+ /usr/src/u-boot/include/compiler.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stddef.h \
+ /usr/src/u-boot/include/asm/byteorder.h \
+ /usr/src/u-boot/include/linux/byteorder/little_endian.h \
+ /usr/src/u-boot/include/linux/compiler.h \
+ /usr/src/u-boot/include/linux/compiler-gcc.h \
+ /usr/src/u-boot/include/linux/compiler-gcc4.h \
+ /usr/src/u-boot/include/linux/byteorder/swab.h \
+ /usr/src/u-boot/include/linux/byteorder/generic.h \
+ /usr/src/u-boot/include/lmb.h /usr/src/u-boot/include/asm/u-boot.h \
+ /usr/src/u-boot/include/command.h /usr/src/u-boot/include/linker_lists.h \
+ /usr/src/u-boot/include/asm/global_data.h \
+ /usr/src/u-boot/include/asm-generic/global_data_flags.h \
+ /usr/src/u-boot/include/asm/mach-types.h \
+ /usr/src/u-boot/include/asm/setup.h \
+ /usr/src/u-boot/include/asm/u-boot-arm.h \
+ /usr/src/u-boot/include/vsprintf.h /usr/src/u-boot/include/u-boot/crc.h \
+ /usr/src/u-boot/include/net.h /usr/src/u-boot/include/asm/cache.h \
+ /usr/src/u-boot/include/asm/system.h /usr/src/u-boot/include/bootstage.h \
+ /usr/src/u-boot/include/asm/io.h /usr/src/u-boot/include/asm/memory.h \
+ /usr/src/u-boot/include/pcmcia.h

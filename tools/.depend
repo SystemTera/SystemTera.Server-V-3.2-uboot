@@ -1,0 +1,403 @@
+env_embedded.o: /usr/src/u-boot/common/env_embedded.c \
+ /usr/include/stdc-predef.h /usr/src/u-boot/include/config.h \
+ /usr/src/u-boot/include/config_cmd_defaults.h \
+ /usr/src/u-boot/include/config_defaults.h \
+ /usr/src/u-boot/include/configs/var_am335x.h \
+ /usr/src/u-boot/include/asm/arch/cpu.h \
+ /usr/src/u-boot/include/asm/arch/hardware.h \
+ /usr/src/u-boot/include/asm/arch/omap.h \
+ /usr/src/u-boot/include/config_cmd_default.h \
+ /usr/src/u-boot/include/asm/config.h \
+ /usr/src/u-boot/include/config_fallbacks.h \
+ /usr/src/u-boot/include/config_uncmd_spl.h \
+ /usr/src/u-boot/include/environment.h /usr/src/u-boot/include/compiler.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stddef.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-hard.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/bits/mman-linux.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/fcntl-linux.h /usr/include/bits/stat.h \
+ /usr/include/byteswap.h /usr/src/u-boot/include/env_attr.h \
+ /usr/src/u-boot/include/env_callback.h \
+ /usr/src/u-boot/include/env_flags.h \
+ /usr/src/u-boot/include/linker_lists.h /usr/include/search.h \
+ /usr/src/u-boot/include/linux/stringify.h
+image.o: /usr/src/u-boot/common/image.c /usr/include/stdc-predef.h \
+ /usr/src/u-boot/tools/mkimage.h /usr/src/u-boot/tools/os_support.h \
+ /usr/src/u-boot/include/compiler.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stddef.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-hard.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/bits/mman-linux.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/fcntl-linux.h /usr/include/bits/stat.h \
+ /usr/include/byteswap.h /usr/include/sys/stat.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/src/u-boot/include/sha1.h /usr/src/u-boot/tools/fdt_host.h \
+ /usr/src/u-boot/tools/../include/fdt.h \
+ /usr/src/u-boot/tools/../include/libfdt.h \
+ /usr/src/u-boot/include/libfdt_env.h /usr/src/u-boot/include/compiler.h \
+ /usr/src/u-boot/include/fdt.h \
+ /usr/src/u-boot/tools/../include/fdt_support.h \
+ /usr/src/u-boot/include/u-boot/md5.h /usr/src/u-boot/include/image.h \
+ /usr/include/asm/byteorder.h \
+ /usr/include/linux/byteorder/little_endian.h /usr/include/linux/types.h \
+ /usr/include/asm/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/include/asm/bitsperlong.h /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/linux/swab.h \
+ /usr/include/asm/swab.h /usr/src/u-boot/include/libfdt.h \
+ /usr/src/u-boot/include/fdt_support.h
+crc32.o: /usr/src/u-boot/lib/crc32.c /usr/include/stdc-predef.h \
+ /usr/src/u-boot/include/compiler.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stddef.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-hard.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/bits/mman-linux.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/fcntl-linux.h /usr/include/bits/stat.h \
+ /usr/include/byteswap.h /usr/src/u-boot/include/u-boot/crc.h \
+ /usr/src/u-boot/include/u-boot/zlib.h
+md5.o: /usr/src/u-boot/lib/md5.c /usr/include/stdc-predef.h \
+ /usr/src/u-boot/include/compiler.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stddef.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-hard.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/bits/mman-linux.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/fcntl-linux.h /usr/include/bits/stat.h \
+ /usr/include/byteswap.h /usr/src/u-boot/include/u-boot/md5.h
+sha1.o: /usr/src/u-boot/lib/sha1.c /usr/include/stdc-predef.h \
+ /usr/include/string.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-hard.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stddef.h \
+ /usr/include/xlocale.h /usr/src/u-boot/include/watchdog.h \
+ /usr/src/u-boot/include/sha1.h
+envcrc.o: /usr/src/u-boot/tools/envcrc.c /usr/include/stdc-predef.h \
+ /usr/include/errno.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-hard.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdio.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/byteswap-16.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/src/u-boot/include/config.h \
+ /usr/src/u-boot/include/config_cmd_defaults.h \
+ /usr/src/u-boot/include/config_defaults.h \
+ /usr/src/u-boot/include/configs/var_am335x.h \
+ /usr/src/u-boot/include/asm/arch/cpu.h \
+ /usr/src/u-boot/include/asm/arch/hardware.h \
+ /usr/src/u-boot/include/asm/arch/omap.h \
+ /usr/src/u-boot/include/config_cmd_default.h \
+ /usr/src/u-boot/include/asm/config.h \
+ /usr/src/u-boot/include/config_fallbacks.h \
+ /usr/src/u-boot/include/config_uncmd_spl.h
+gen_eth_addr.o: /usr/src/u-boot/tools/gen_eth_addr.c \
+ /usr/include/stdc-predef.h /usr/include/stdio.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-hard.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/byteswap-16.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/xlocale.h
+img2srec.o: /usr/src/u-boot/tools/img2srec.c /usr/include/stdc-predef.h \
+ /usr/src/u-boot/tools/os_support.h /usr/src/u-boot/include/compiler.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stddef.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-hard.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/bits/mman-linux.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/fcntl-linux.h /usr/include/bits/stat.h \
+ /usr/include/byteswap.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdbool.h \
+ /usr/include/ctype.h /usr/include/elf.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h
+fdt.o: /usr/src/u-boot/lib/libfdt/fdt.c /usr/include/stdc-predef.h \
+ /usr/src/u-boot/include/libfdt_env.h /usr/src/u-boot/include/compiler.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stddef.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-hard.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/bits/mman-linux.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/fcntl-linux.h /usr/include/bits/stat.h \
+ /usr/include/byteswap.h /usr/src/u-boot/tools/fdt_host.h \
+ /usr/src/u-boot/tools/../include/fdt.h \
+ /usr/src/u-boot/tools/../include/libfdt.h /usr/src/u-boot/include/fdt.h \
+ /usr/src/u-boot/tools/../include/fdt_support.h \
+ /usr/src/u-boot/lib/libfdt/libfdt_internal.h
+fdt_ro.o: /usr/src/u-boot/lib/libfdt/fdt_ro.c /usr/include/stdc-predef.h \
+ /usr/src/u-boot/include/libfdt_env.h /usr/src/u-boot/include/compiler.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stddef.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-hard.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/bits/mman-linux.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/fcntl-linux.h /usr/include/bits/stat.h \
+ /usr/include/byteswap.h /usr/src/u-boot/tools/fdt_host.h \
+ /usr/src/u-boot/tools/../include/fdt.h \
+ /usr/src/u-boot/tools/../include/libfdt.h /usr/src/u-boot/include/fdt.h \
+ /usr/src/u-boot/tools/../include/fdt_support.h \
+ /usr/src/u-boot/lib/libfdt/libfdt_internal.h
+fdt_rw.o: /usr/src/u-boot/lib/libfdt/fdt_rw.c /usr/include/stdc-predef.h \
+ /usr/src/u-boot/include/libfdt_env.h /usr/src/u-boot/include/compiler.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stddef.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-hard.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/bits/mman-linux.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/fcntl-linux.h /usr/include/bits/stat.h \
+ /usr/include/byteswap.h /usr/src/u-boot/tools/fdt_host.h \
+ /usr/src/u-boot/tools/../include/fdt.h \
+ /usr/src/u-boot/tools/../include/libfdt.h /usr/src/u-boot/include/fdt.h \
+ /usr/src/u-boot/tools/../include/fdt_support.h \
+ /usr/src/u-boot/lib/libfdt/libfdt_internal.h
+fdt_strerror.o: /usr/src/u-boot/lib/libfdt/fdt_strerror.c \
+ /usr/include/stdc-predef.h /usr/src/u-boot/include/libfdt_env.h \
+ /usr/src/u-boot/include/compiler.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stddef.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-hard.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/bits/mman-linux.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/fcntl-linux.h /usr/include/bits/stat.h \
+ /usr/include/byteswap.h /usr/src/u-boot/tools/fdt_host.h \
+ /usr/src/u-boot/tools/../include/fdt.h \
+ /usr/src/u-boot/tools/../include/libfdt.h /usr/src/u-boot/include/fdt.h \
+ /usr/src/u-boot/tools/../include/fdt_support.h \
+ /usr/src/u-boot/lib/libfdt/libfdt_internal.h
+fdt_wip.o: /usr/src/u-boot/lib/libfdt/fdt_wip.c \
+ /usr/include/stdc-predef.h /usr/src/u-boot/include/libfdt_env.h \
+ /usr/src/u-boot/include/compiler.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stddef.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-hard.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/bits/mman-linux.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/fcntl-linux.h /usr/include/bits/stat.h \
+ /usr/include/byteswap.h /usr/src/u-boot/tools/fdt_host.h \
+ /usr/src/u-boot/tools/../include/fdt.h \
+ /usr/src/u-boot/tools/../include/libfdt.h /usr/src/u-boot/include/fdt.h \
+ /usr/src/u-boot/tools/../include/fdt_support.h \
+ /usr/src/u-boot/lib/libfdt/libfdt_internal.h

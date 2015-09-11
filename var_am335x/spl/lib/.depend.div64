@@ -1,0 +1,7 @@
+/arm/server-v/usr/src/u-boot/var_am335x/spl/lib/div64.o: div64.c \
+ /arm/server-v/usr/src/u-boot/include/linux/types.h \
+ /arm/server-v/usr/src/u-boot/include/linux/config.h \
+ /arm/server-v/usr/src/u-boot/include/linux/posix_types.h \
+ /arm/server-v/usr/src/u-boot/include/linux/stddef.h \
+ /arm/server-v/usr/src/u-boot/var_am335x/include2/asm/posix_types.h \
+ /arm/server-v/usr/src/u-boot/var_am335x/include2/asm/types.h

@@ -1,0 +1,6 @@
+crc7.o: crc7.c /usr/src/u-boot/include/linux/types.h \
+ /usr/src/u-boot/include/linux/config.h \
+ /usr/src/u-boot/include/linux/posix_types.h \
+ /usr/src/u-boot/include/linux/stddef.h \
+ /usr/src/u-boot/include/asm/posix_types.h \
+ /usr/src/u-boot/include/asm/types.h /usr/src/u-boot/include/linux/crc7.h

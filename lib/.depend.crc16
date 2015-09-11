@@ -1,0 +1,7 @@
+crc16.o: crc16.c /usr/src/u-boot/include/crc.h \
+ /usr/src/u-boot/include/linux/types.h \
+ /usr/src/u-boot/include/linux/config.h \
+ /usr/src/u-boot/include/linux/posix_types.h \
+ /usr/src/u-boot/include/linux/stddef.h \
+ /usr/src/u-boot/include/asm/posix_types.h \
+ /usr/src/u-boot/include/asm/types.h

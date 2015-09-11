@@ -1,0 +1,12 @@
+memsize.o: memsize.c /usr/src/u-boot/include/config.h \
+ /usr/src/u-boot/include/config_cmd_defaults.h \
+ /usr/src/u-boot/include/config_defaults.h \
+ /usr/src/u-boot/include/configs/var_am335x.h \
+ /usr/src/u-boot/include/asm/arch/cpu.h \
+ /usr/src/u-boot/include/asm/types.h \
+ /usr/src/u-boot/include/asm/arch/hardware.h \
+ /usr/src/u-boot/include/asm/arch/omap.h \
+ /usr/src/u-boot/include/config_cmd_default.h \
+ /usr/src/u-boot/include/asm/config.h \
+ /usr/src/u-boot/include/config_fallbacks.h \
+ /usr/src/u-boot/include/config_uncmd_spl.h

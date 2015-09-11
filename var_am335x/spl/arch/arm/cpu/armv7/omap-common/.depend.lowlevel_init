@@ -1,0 +1,7 @@
+/arm/server-v/usr/src/u-boot/var_am335x/spl/arch/arm/cpu/armv7/omap-common/lowlevel_init.o: \
+ lowlevel_init.S \
+ /arm/server-v/usr/src/u-boot/var_am335x/include/asm/arch/omap.h \
+ /arm/server-v/usr/src/u-boot/var_am335x/include/asm/arch/spl.h \
+ /arm/server-v/usr/src/u-boot/include/linux/linkage.h \
+ /arm/server-v/usr/src/u-boot/var_am335x/include2/asm/linkage.h \
+ /arm/server-v/usr/src/u-boot/include/linux/config.h

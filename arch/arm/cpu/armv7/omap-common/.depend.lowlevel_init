@@ -1,0 +1,5 @@
+lowlevel_init.o: lowlevel_init.S /usr/src/u-boot/include/asm/arch/omap.h \
+ /usr/src/u-boot/include/asm/arch/spl.h \
+ /usr/src/u-boot/include/linux/linkage.h \
+ /usr/src/u-boot/include/asm/linkage.h \
+ /usr/src/u-boot/include/linux/config.h

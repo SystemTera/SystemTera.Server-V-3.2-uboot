@@ -1,0 +1,54 @@
+/usr/src/u-boot/var_am335x/include/autoconf.mk: include/common.h \
+ /usr/src/u-boot/var_am335x/include/config.h \
+ /usr/src/u-boot/include/config_cmd_defaults.h \
+ /usr/src/u-boot/include/config_defaults.h \
+ /usr/src/u-boot/include/configs/var_am335x.h \
+ /usr/src/u-boot/var_am335x/include/asm/arch/cpu.h \
+ /usr/src/u-boot/var_am335x/include2/asm/types.h \
+ /usr/src/u-boot/var_am335x/include/asm/arch/hardware.h \
+ /usr/src/u-boot/var_am335x/include/asm/arch/omap.h \
+ /usr/src/u-boot/include/config_cmd_default.h \
+ /usr/src/u-boot/var_am335x/include2/asm/config.h \
+ /usr/src/u-boot/include/config_fallbacks.h \
+ /usr/src/u-boot/include/config_uncmd_spl.h \
+ /usr/src/u-boot/include/asm-offsets.h \
+ /usr/src/u-boot/include/linux/bitops.h \
+ /usr/src/u-boot/var_am335x/include2/asm/bitops.h \
+ /usr/src/u-boot/var_am335x/include/asm/proc/system.h \
+ /usr/src/u-boot/include/linux/config.h \
+ /usr/src/u-boot/include/linux/types.h \
+ /usr/src/u-boot/include/linux/posix_types.h \
+ /usr/src/u-boot/include/linux/stddef.h \
+ /usr/src/u-boot/var_am335x/include2/asm/posix_types.h \
+ /usr/src/u-boot/include/linux/string.h \
+ /usr/src/u-boot/var_am335x/include2/asm/string.h \
+ /usr/src/u-boot/include/linux/linux_string.h \
+ /usr/src/u-boot/include/linux/stringify.h \
+ /usr/src/u-boot/var_am335x/include2/asm/ptrace.h \
+ /usr/src/u-boot/var_am335x/include/asm/proc/ptrace.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stdarg.h \
+ /usr/src/u-boot/include/part.h /usr/src/u-boot/include/ide.h \
+ /usr/src/u-boot/include/flash.h /usr/src/u-boot/include/image.h \
+ /usr/src/u-boot/include/compiler.h \
+ /usr/lib/gcc/armv7a-hardfloat-linux-gnueabi/4.8.3/include/stddef.h \
+ /usr/src/u-boot/var_am335x/include2/asm/byteorder.h \
+ /usr/src/u-boot/include/linux/byteorder/little_endian.h \
+ /usr/src/u-boot/include/linux/compiler.h \
+ /usr/src/u-boot/include/linux/compiler-gcc.h \
+ /usr/src/u-boot/include/linux/compiler-gcc4.h \
+ /usr/src/u-boot/include/linux/byteorder/swab.h \
+ /usr/src/u-boot/include/linux/byteorder/generic.h \
+ /usr/src/u-boot/include/lmb.h \
+ /usr/src/u-boot/var_am335x/include2/asm/u-boot.h \
+ /usr/src/u-boot/include/command.h /usr/src/u-boot/include/linker_lists.h \
+ /usr/src/u-boot/var_am335x/include2/asm/global_data.h \
+ /usr/src/u-boot/include/asm-generic/global_data_flags.h \
+ /usr/src/u-boot/var_am335x/include2/asm/mach-types.h \
+ /usr/src/u-boot/var_am335x/include2/asm/setup.h \
+ /usr/src/u-boot/var_am335x/include2/asm/u-boot-arm.h \
+ /usr/src/u-boot/include/vsprintf.h /usr/src/u-boot/include/u-boot/crc.h \
+ /usr/src/u-boot/include/net.h \
+ /usr/src/u-boot/var_am335x/include2/asm/cache.h \
+ /usr/src/u-boot/var_am335x/include2/asm/system.h \
+ /usr/src/u-boot/include/bootstage.h \
+ /usr/src/u-boot/include/environment.h
